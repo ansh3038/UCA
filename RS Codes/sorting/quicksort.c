@@ -31,7 +31,7 @@ void quicksort(int *arr, int low, int high) {
 }
 
 int main() {
-    int arr[] = {5, 4, 3, 2, 7, 8, 9, 10};
+    int arr[] = {5, 6, 3, 2, 7, 8, 9, 10};
     int size = sizeof(arr) / sizeof(arr[0]);
     quicksort(arr, 0, size - 1);  // Pass size - 1 as the high index
     for (int i = 0; i < size; i++) {
