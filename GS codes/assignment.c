@@ -18,7 +18,6 @@ int logicalShift( int x, int n){
 }
 int invert(int a, int p, int n){
     int mask = ~((~0)<<n) << p;
-    // printf("%x",a^mask);
     return a ^ mask;
 }
 
